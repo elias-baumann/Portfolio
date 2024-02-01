@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/song.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="favicon/favicon-32x32.ico"
+    />
+
+    <title>My Folio</title>
+  </head>
+
+  <body class="tv-effect">
+    <main class="main">
+      <div class="left-content">
+        <div class="desk-icons">
+          <button class="desk-start app" onclick="toggleMe('myDIVextra2')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Practical Bachelor's Thesis</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra3')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Airpolution</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra4')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Luzern Floating</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra5')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Novartis Fassade Animation</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra6')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Interaktiver Film</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra7')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Meri Mood Visualizer</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra8')">
+            <img
+              src="img/icon/milestone.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Music Producer Album</p>
+          </button>
+
+          <!-- <button id="ASong" onClick="playPause()" class="desk-play app">
+            <audio src="audio/feelslikesummer.mp3" autoplay loop></audio>
+            <img
+              src="img/icon/play.png"
+              class="play-icon icon"
+              alt="Play Icon"
+            />
+            <p class="play-text">Play Song</p>
+          </button> -->
+        </div>
+
+        <!-- Unnötig aber iwie Wichtig -->
+        <div id="mydiv" class="desk-window tv-effect">
+          <div id="mydiv4header4" class="window-headerX">
+            <p class="header-text">Feels Like Summer</p>
+            <div class="header-icons">
+              <div class="header-minimize">
+                <!-- <span class="fa-minus"></span> -->
+                <img src="img/minimize.svg" class="minimize-icon" />
+              </div>
+              <div class="header-big">
+                <!-- <span class="fa-square"></span> -->
+                <img src="img/big.svg" class="big-icon" />
+              </div>
+              <div class="header-close">
+                <!-- <span class="fa-minus"></span> -->
+                <img src="img/x.svg" class="close-icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PopUp Proj1-->
+        <div id="myDIVextra2">
+          <div id="mydiv2" class="desk-window2 tv-effect">
+            <div id="mydiv2header2" class="window-headerX">
+              <p class="header-text">SWEAT & SMILE REWIND</p>
+              <div class="header-icons">
+                <button
+                  class="header-close-extra"
+                  onclick="toggleMe('myDIVextra2')"
+                >
+                  <img src="img/x.svg" class="close-icon close-curser" />
+                </button>
+                <!-- <span class="fa-minus"></span> -->
+              </div>
+            </div>
+
+            <div class="window-content-extra">
+              <div class="secX sec1">
+                <div class="sec1left">
+                  <p class="explain">
+                    Der „Sweat & Smile Rewind“ ist ein halbjährliches Video
+                    meines fiktiven Fitnessstudios „Sweat & Smile“. Es zeigt den
+                    Usern eine personalisierte und unterhaltsame Bilanzierung
+                    ihrer Fitnessaktivität. Die interaktive Darstellung zeigt
+                    auf anschauliche Art und Weise, wie verschiedene Faktoren
+                    unsere Persönlichkeit im Fitnessverhalten beeinflussen.
+                    Besuchende können vor einem Screen Platz nehmen und sich von
+                    einer visuellen Reise durch eine Saison zweier verschiedener
+                    Kunden/-innen überraschen lassen. Die Ausstellung vermittelt
+                    die Unterschiede zweier Persönlichkeiten, trotz gleicher
+                    Story. <br /><br />
+
+                    <span
+                      ><a
+                        class="sec1-link"
+                        href="https://elias-baumann.github.io/Sweat-Smile-menu/"
+                        target="_blank"
+                        >Link zu beiden Sweat & Smile Rewinds</a
+                      ></span
+                    >
+                  </p>
+                  <!-- <div class="text2"></div>
+                  <div class="text3"></div> -->
+                </div>
+                <div class="sec1right">
+                  <video class="sweat-smile-video" autoplay loop muted>
+                    <source src="vid/video1.mp4" type="video/mp4" />
+                    Dein Browser unterstützt das Video-Tag nicht.
+                  </video>
+                </div>
+              </div>
+              <div class="secX sec2">
+                <p class="sec-title">Inspiration</p>
+                <p class="sec-text">
+                  Inspirieren lassen habe ich mich grösstenteils vom Spotify
+                  Wrapped. Nach einer Recherchearbeit fand ich einige weitere
+                  Beispiele wie den Strava Yearly Recap. Diese zwei
+                  Jahresrückblicke habe ich ausserdem auch in meiner
+                  Bachelorthesis mit Kriterien verschiedener Data Designer
+                  analysiert. Im Fokus war die Frage „Wie überzeugen
+                  datenbasierte Stories visuell?“.
+                </p>
+              </div>
+              <div class="secX sec3">
+                <p class="sec-title">Prozess</p>
+                <p class="sec-text">
+                  Ich hatte von Beginn an eine klare Vision, was ich wollte und
+                  was ich nicht wollte. Ebenso war ich offen für Ideen und
+                  Kritik. Die Konzeption einer Geschichte, welche die Daten mit
+                  Emotionen zu einem Erlebnis machen, hat mir dabei besonders
+                  gefallen.
+                </p>
+              </div>
+              <div class="secX sec4">
+                <p class="sec-title">Endergebnis</p>
+                <p class="sec-text">
+                  Nun hat jedes Mitglied ein eigenes Video. Mit dem Endergebnis
+                  war ich sehr zufrieden. Es ist vollständig und funktioniert
+                  auf einer Website mit einer kleinen Interaktion. Vor der
+                  Bachelorarbeit hätte ich noch nicht gedacht, dass das Video
+                  dann auch wirklich interaktiv auf einer Website funktioniert.
+                  Nun könnte jedes Mitglied sein persönliches Video im Internet
+                  schauen und zwischen den einzelnen Kapiteln umherspringen.
+                </p>
+              </div>
+              <div class="secX sec5">
+                <p class="sec-title">Learnings / Selbstreflektion</p>
+                <p class="sec-text">
+                  Etwas, was ich besonders gelernt habe, war das selbständige
+                  Arbeiten. Normalerweise hatten wir alle 2-4 Wochen eine
+                  Zwischenpräsentation oder eine bestimmte Aufgabe und
+                  Meilensteine mitten im Projekt. Die Bachelorarbeit dauerte ein
+                  ganzes Semester, in welchem die Selbstdisziplin eine grosse
+                  Rolle spielte. Dank meines Mentors Christian Schneider habe
+                  ich aber auch dies gemeistert. Das Arbeiten, während man
+                  praktisch auf sich allein gestellt ist, war mir eine grosse
+                  Lehre. Ebenfalls eine grosse Herausforderung war das
+                  Formulieren meiner Arbeit, insbesondere die Gründe dafür,
+                  etwas genau in dieser oder jener Art zu machen. Denn es ist
+                  schön und gut zu hören, was man wie und wo machen möchte.
+                  Wichtiger jedoch, auch für das Publikum, ist der Grund, WARUM
+                  man etwas genau so macht. Dies war auch eines meiner grössten
+                  Learnings.
+                </p>
+              </div>
+              <div class="gallery">
+                <img
+                  src="img/bachelor/stats.png"
+                  alt="Datenanalyse Sonnenstunden und Trainingsdauer"
+                />
+                <img
+                  src="img/bachelor/sketch.png"
+                  alt="Skizze zu Ausstellungskonzept"
+                />
+                <img src="img/bachelor/Mockup.png" alt="Mockup Design" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PopUp Proj2-->
+
+        <div id="myDIVextra3">
+          <div id="mydiv3" class="desk-window3 tv-effect">
+            <div id="mydiv3header3" class="window-headerX">
+              <p class="header-text">Airpolution London vs. Amsterdam</p>
+              <div class="header-icons">
+                <button
+                  class="header-close-extra"
+                  onclick="toggleMe('myDIVextra3')"
+                >
+                  <img src="img/x.svg" class="close-icon close-curser" />
+                </button>
+                <!-- <span class="fa-minus"></span> -->
+              </div>
+            </div>
+
+            <div class="window-content-extra">
+              <div class="secX sec1">
+                <div class="sec1left">
+                  <p class="explain">
+                    Eine animierte Big-Data Datenvisualisierungs-Projektion auf
+                    eine im Raum hängende Stadt. Unser Ziel war es, die
+                    Luftverschmutzung (Air Pollution) zweier Städte zu
+                    vergleichen. Eine dieser Städte sollte eine mit dem grössten
+                    Strassenverkehr Europas sein, die andere Stadt das komplette
+                    Gegenteil. Deshalb London und Amsterdam. Die Luftpartikel
+                    wurden mit p5.js auf einer Karte visualisiert, welche im
+                    Raum auf eine im Massstab verkleinerte Stadtkarte projiziert
+                    wurde. Auf dieser Karte waren jeweils abwechslungsweise
+                    Strassen, Velowege, Grünflächen und Umweltzonen gezeigt.
+                    Somit konnte man selbst Analysen durchführen und
+                    Erkenntnisse gewinnen.
+                  </p>
+                  <!-- <div class="text2"></div>
+                  <div class="text3"></div> -->
+                </div>
+                <div class="sec1right">
+                  <video class="sweat-smile-video" autoplay loop muted>
+                    <source src="vid/video2.mp4" type="video/mp4" />
+                    Dein Browser unterstützt das Video-Tag nicht.
+                  </video>
+                </div>
+              </div>
+              <div class="secX sec2">
+                <p class="sec-title">Inspiration</p>
+                <p class="sec-text">
+                  Inspiriert wurden wir von einem vorherigen Projekt von
+                  jemandem aus unserer Gruppe. Damals hat er die
+                  Luftverschmutzung in Afrika visualisiert, jedoch nur den
+                  Feinstaub auf einer leeren Karte. Wir wollten diese Grundidee
+                  erweitern. Da wir zu dritt waren konnten wir ein viel
+                  aufwändigeres Projekt innerhalb nur zwei Wochen anstreben und
+                  auch erfolgreich finalisieren.
+                </p>
+              </div>
+              <div class="secX sec3">
+                <p class="sec-title">Prozess</p>
+                <p class="sec-text">
+                  Für das gesamte Projekt hatten wir genau zwei Wochen Zeit.
+                  Danach fand bereits die Werkschau statt und alles musste
+                  funktionieren. Da wir uns alle gerne selbst herausfordern,
+                  haben wir alles dafür gegeben, dies zu schaffen. Es war eine
+                  stressige und ungemütliche Zeit. Jedoch haben wir uns nie aus
+                  unserem Workflow reissen lassen und ab und zu auch gerne mal
+                  bis tief in die Nacht daran gearbeitet. Meine Hauptaufgabe
+                  bestand darin, die beiden Städte in originalgetreuem Massstab
+                  zueinander zu „bauen“. Auch diese so aufzuhängen, dass sie vom
+                  Beamer richtig projiziert werden kann, war eine
+                  Herausforderung. Schliesslich wollten wir keine halben Sachen
+                  machen.
+                </p>
+              </div>
+              <div class="secX sec4">
+                <p class="sec-title">Endergebnis</p>
+                <p class="sec-text">
+                  Wie von Anfang an gewünscht konnten wir alles so umsetzen wie
+                  wir es wollten. Wir mussten fast keine Kompromisse eingehen.
+                  Nun wurden jeweils auf den Städten Velowege, Strassen,
+                  Grünzonen und Industriegebiete abgebildet, dazu der Feinstaub
+                  mit Windrichtung. Somit konnten alle Zuschauenden selbst
+                  Erkenntnisse gewinnen, beispielsweise welche Auswirkungen
+                  Strassen und Wind mit Feinstaub auf verschiedene Gebiete einer
+                  Stadt hatten.
+                </p>
+              </div>
+              <div class="secX sec5">
+                <p class="sec-title">Learnings / Selbstreflektion</p>
+                <p class="sec-text">
+                  Das grösste Learning bei diesem Projekt war das präzise und
+                  effiziente Arbeiten unter grossem Zeitdruck. Dennoch hatten
+                  wir zum Schluss eine erfolgreiche Präsentation und ich bin
+                  sehr stolz auf unsere Teamarbeit und meinen individuellen
+                  Beitrag. Es hat mir ausserdem auch sehr viel Spass bereitet,
+                  eine solche Dateninstallation im Raum zu bauen. Denn bis zu
+                  diesem Modul war ich noch kein grosser Fan von
+                  Daten-Installationen im Raum. Ich arbeite sehr gerne in
+                  Gruppen und konnte immer gut Kompromisse eingehen mit meinen
+                  Gruppenkameraden.
+                </p>
+              </div>
+              <div class="gallery">
+                <img
+                  src="img/airpolution/london overview.png"
+                  alt="Ausstellung London"
+                />
+                <img src="img/airpolution/elias.JPG" alt="Me presentating" />
+                <img src="img/airpolution/tryout.png" alt="Tryout Mapping" />
+                <img
+                  src="img/airpolution/elias concept.png"
+                  alt="Me cutting City Shapes"
+                />
+                <img
+                  src="img/airpolution/amsterdam both.png"
+                  alt="Vis-a-vis Amsterdam"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PopUp Proj3-->
+
+        <div id="myDIVextra4">
+          <div id="mydiv4" class="desk-window4 tv-effect">
+            <div id="mydiv4header4" class="window-headerX">
+              <p class="header-text">Luzern Floating</p>
+              <div class="header-icons" id="closeButton">
+                <button
+                  class="header-close-extra"
+                  onclick="toggleMe('myDIVextra4')"
+                >
+                  <img src="img/x.svg" class="close-icon close-curser" />
+                </button>
+                <!-- <span class="fa-minus"></span> -->
+              </div>
+            </div>
+
+            <div class="window-content-extra">
+              <div class="secX sec1">
+                <div class="sec1left">
+                  <p class="explain">
+                    Eine interaktive Multiscreen Datenvisualisierung In diesem
+                    Projekt geht es um «Flow», genauer gesagt um Niederschlag.
+                    Meine Datenvisualisierung zeigt eine Simulation der Stadt
+                    Luzern, was alles überschwemmt werden würde, wenn der
+                    Pegelstand des Vierwaldstättersees um eine bestimmte Anzahl
+                    Meter steigen würde. Anhand einer Interaktion kann man
+                    selbst steuern, wie hoch der Pegel steigt. Mit jedem Meter
+                    wird die Stadt mehr überflutet. <br /><br />
+
+                    <span
+                      ><a
+                        class="sec1-link"
+                        href="https://elias-baumann.github.io/flood-luzern/"
+                        target="_blank"
+                        >Siehe selbst</a
+                      ></span
+                    >
+                  </p>
+                  <!-- <div class="text2"></div>
+                  <div class="text3"></div> -->
+                </div>
+                <div class="sec1right">
+                  <video class="sweat-smile-video" autoplay loop muted>
+                    <source src="vid/video3.mp4" type="video/mp4" />
+                    Dein Browser unterstützt das Video-Tag nicht.
+                  </video>
+                </div>
+              </div>
+              <div class="secX sec2">
+                <p class="sec-title">Inspiration</p>
+                <p class="sec-text">
+                  Bei diesem Projekt konnte ich mich nicht von Externem
+                  inspirieren lassen, denn es gibt nichts dieser Art. Jedoch
+                  habe ich mich vom gesamten Stoff in diesem Modul inspirieren
+                  lassen. Viele Entscheide mussten gefällt werden, bis das
+                  Endergebnis schlussendlich zustande kam.
+                </p>
+              </div>
+              <div class="secX sec3">
+                <p class="sec-title">Prozess</p>
+                <p class="sec-text">
+                  Interaktive Multiscreen Datenvisualisierung war die Vorgabe
+                  des Moduls. Gearbeitet haben wir mit p5.js. Ich habe eine
+                  Höhenmeterkarte als Hintergrund gewählt, welche für jeden
+                  einzelnen Höhenmeter eine unterschiedliche Farbe hatte. Somit
+                  konnte ich einen Schieberegler erstellen, welcher alle Farben
+                  des gewünschten Höhenmeters beispielsweise blau einfärbt. Dies
+                  wird auf eine weisse Fläche auf einem Tisch oder Boden
+                  projiziert. Denn ein See liegt nun mal horizontal und nicht
+                  vertikal. Um dem Ganzen noch mehr Emotionen und Realitätsbezug
+                  zu schenken, habe ich einen zweiten Monitor hinzugefügt,
+                  welcher von der Seite visualisiert, wie hoch der Wasserspiegel
+                  steigen würde und wann ein Mensch, ein Auto oder ein Haus
+                  überschwemmt würde. Verändert sich der Schieberegler, erhöht
+                  oder sinkt eine rote Linie direkt vor den Betrachtenden.
+                </p>
+              </div>
+              <div class="secX sec4">
+                <p class="sec-title">Endergebnis</p>
+                <p class="sec-text">
+                  Um die Experience bei der Interaktion zu stärken, habe ich ein
+                  kleines Rad aufgestellt und so programmiert, dass sobald man
+                  daran dreht, sich der Wasserpegel automatisch auf dem
+                  Bildschirm erhöht oder senkt. Somit konnten alle Betrachter
+                  selbst damit spielen und experimentieren.
+                </p>
+              </div>
+              <div class="secX sec5">
+                <p class="sec-title">Learnings / Selbstreflektion</p>
+                <p class="sec-text">
+                  Dank unserem Dozenten Michael Flückiger konnte ich dieses
+                  Projekt auch wirklich finalisieren. Denn er brachte uns das
+                  Codieren für die Interaktionen und Verbindungen bei. Auch beim
+                  Arbeiten mit p5.js habe ich vieles gelernt. Jedoch brauchte
+                  ich oft auch Hilfe. Die Konzeption der finalen Version der
+                  Ausstellung hat mir damals am meisten Freude bereitet.
+                  Realisiert habe ich dabei auch, dass sehr viel mehr als nur
+                  die Oberfläche des finalen Produktes dahintersteht. Damit das
+                  Erlebnis beim Publikum auch wirklich garantiert war, versuchte
+                  ich von Beginn weg daran zu arbeiten. Auf dieses Endprodukt
+                  und das gesamte Projekt bin ich besonders stolz, und habe mich
+                  deshalb bewusst entschieden, es in meinem Portfolio zu
+                  präsentieren.
+                </p>
+              </div>
+              <div class="gallery">
+                <img
+                  src="img/floating/skizze.png"
+                  alt="Skizze für Installation"
+                />
+                <img src="img/floating/box.png" alt="Box und Technik" />
+                <img src="img/floating/screen.png" alt="Installation" />
+                <img src="img/floating/skizze ersatz.png" alt="1. Variante" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PopUp Proj4-->
+
+      <div id="myDIVextra5">
+        <div id="mydiv5" class="desk-window5 tv-effect">
+          <div id="mydiv5header5" class="window-headerX">
+            <p class="header-text">Datenvisualisierung Novartis Campus</p>
+            <div class="header-icons">
+              <button
+                class="header-close-extra"
+                onclick="toggleMe('myDIVextra5')"
+              >
+                <img src="img/x.svg" class="close-icon close-curser" />
+              </button>
+              <!-- <span class="fa-minus"></span> -->
+            </div>
+          </div>
+
+          <div class="window-content-extra">
+            <div class="secX sec1">
+              <div class="sec1left">
+                <p class="explain">
+                  Animierte Datenvisualisierungs-Bespielung auf der Fassade des
+                  Novartis Pavillon. Bei diesem Video wird die
+                  Energie-Produktion und der Energie-Verbrauch des Campus auf
+                  der Pavillon-Fassade visualisiert. Es wird immer ein einzelner
+                  Tag visualisiert, in diesem Beispiel der 30.07.2022. Das Ziel
+                  war dabei, nur mittels der Fassade eine Botschaft an jeden
+                  Zuschauer und jede Zuschauerin zu senden. Speziell daran war
+                  das Videoverhältnis von 809:106. <br /><br />
+                </p>
+                <!-- <div class="text2"></div>
+                <div class="text3"></div> -->
+              </div>
+              <div class="sec1right">
+                <video class="sweat-smile-video" autoplay loop muted>
+                  <source src="vid/video4.mp4" type="video/mp4" />
+                  Dein Browser unterstützt das Video-Tag nicht.
+                </video>
+              </div>
+            </div>
+            <div class="secX sec2">
+              <p class="sec-title">Inspiration</p>
+              <p class="sec-text">
+                Die wellenartigen Darstellungen von Sound bei alten Radiogeräten
+                sind in gewisser Weise auch Datenvisualisierungen. Dies
+                versuchte ich mittels p5.js zu simulieren.
+              </p>
+            </div>
+            <div class="secX sec3">
+              <p class="sec-title">Prozess</p>
+              <p class="sec-text">
+                Das Arbeiten mit p5.js war für mich wie im gesamten Studium
+                immer eine Herausforderung. Mithilfe der Dozierenden ist es mir
+                dennoch gelungen, einen funktionierenden Sketch zu schreiben,
+                welchen ich dann als Video exportieren konnte. Ich habe mich mit
+                den Stromverbrauchs-Daten auseinandergesetzt. Wenn die Kurve in
+                grün im oberen Teil der Fassade ist, erzeugt der Campus zu
+                diesem Zeitpunkt Strom. Ist die Kurve im roten Bereich, wird zu
+                diesem Zeitpunkt mehr Strom verbraucht als produziert. Jeden
+                Abend sollte diese Animation durchlaufen, jeweils mit den Daten
+                des vergangenen Tages. Als Beispiel für einen solchen Tag habe
+                ich meinen letzten Geburtstag, den 30.07.2022, verwendet. 
+              </p>
+            </div>
+            <div class="secX sec4">
+              <p class="sec-title">Endergebnis</p>
+              <p class="sec-text">
+                Das Video wurde auf einem in 3D modellierten Gebäude abgespielt.
+                Nun konnte man auf dem Dach des Novartis Campus die
+                Live-Visualisierung des Stromverbrauchs beobachten. 
+              </p>
+            </div>
+            <div class="secX sec5">
+              <p class="sec-title">Learnings / Selbstreflektion</p>
+              <p class="sec-text">
+                Als Feedback habe ich oft gehört, dass es aussehe wie
+                schwingende Soundkurven. Also genau was ich erzielen wollte.
+                Trotz dem Arbeiten mit p5.js hat es mir eine Menge Spass
+                gemacht. Denn sobald ich das Gerüst hatte, konnte ich beginnen
+                zu experimentieren und verfeinern. Live auf dem Dach der Fassade
+                konnte ich das Videos leider nie sehen.
+              </p>
+            </div>
+            <div class="gallery">
+              <img src="img/novartis/sketch.jpg" alt="Skizze für Animation" />
+              <img
+                src="img/novartis/campus.png"
+                alt="Screenshot wie es aussehen würde"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- PopUp Proj5-->
+
+        <div id="myDIVextra6">
+          <div id="mydiv6" class="desk-window6 tv-effect">
+            <div id="mydiv6header6" class="window-headerX">
+              <p class="header-text">Wish You Were Here</p>
+              <div class="header-icons">
+                <button
+                  class="header-close-extra"
+                  onclick="toggleMe('myDIVextra6')"
+                >
+                  <img src="img/x.svg" class="close-icon close-curser" />
+                </button>
+                <!-- <span class="fa-minus"></span> -->
+              </div>
+            </div>
+
+            <div class="window-content-extra">
+              <div class="secX sec1">
+                <div class="sec1left">
+                  <p class="explain">
+                    Ein interaktiver Kurzfilm über eine Person, welche in einem Videospiel in der Drittpersonen-Perspektive gefangen ist. Er und sein Freund haben sich stark gestritten. Du kannst jetzt entscheiden, welchen Weg du gehst, um den Grund dazu mit seinem Freund zu klären. Auf deiner Reise begegnest du Persönlichkeiten, welche dich immer näher ans Ziel bringen. 
+Der Film dient in erster Linie der Unterhaltung und soll das Publikum das eine oder andere Mal zum Lachen bringen. <br />
+Dieser Kurzfilm war das Endergebnis unserer Dreier-Gruppe im studienübergreifenden IDA-Modul: „Interaktiver Film“ 2022.  <br /><br />
+                    <span
+                      ><a
+                        class="sec1-link"
+                        href="http://hslu2022-ida-main.korsakow.tv/03/"
+                        target="_blank"
+                        >Hier gehts zum Film</a></span>
+                  </p>
+                  <!-- <div class="text2"></div>
+                  <div class="text3"></div> -->
+                </div>
+                <div class="sec1right">
+                  <video class="sweat-smile-video" autoplay loop muted>
+                    <source src="vid/video5.mp4" type="video/mp4" />
+                    Dein Browser unterstützt das Video-Tag nicht.
+                  </video>
+                </div>
+              </div>
+              <div class="secX sec2">
+                <p class="sec-title">Inspiration</p>
+                <p class="sec-text">
+                  Die Inspiration für die Idee, diesen Film aus der Drittpersonen-Perspektive zu filmen, kam aus meiner Kindheit. Diverse YouTuber haben damals „GTA in Reallife“ Videos kreiert. Da diese nicht interaktiv waren, haben wir dies als Basis genommen. Auch Videospiele wie beispielsweise das berühmte Videospiel „Grand Theft Auto“ spielen in der Drittpersonen-Perspektive. 
+
+                </p>
+              </div>
+              <div class="secX sec3">
+                <p class="sec-title">Prozess</p>
+                <p class="sec-text">
+                  Nun konnten wir unsere eigene Story gestalten, diese so konzipieren, damit es für jede Entscheidung weiter geht und die Geschichte keine Fehler oder Errors hat. Dies war auch die grösste Herausforderung des gesamten Projektes. Auf dem Bild erkennt man das Netz hinter dem Film. Denn nach einem einmaligen Durchspielen hat man erst einen kleinen Teil (weniger als 50%) des gesamten Projektes gesehen.
+                </p>
+              </div>
+              <div class="secX sec4">
+                <p class="sec-title">Endergebnis</p>
+                <p class="sec-text">
+                  Mit langen Arbeitszeiten, viel Kommunikation und Nachtschichten haben wir es geschafft, den Film pünktlich und ohne einen einzigen Logikfehler einzureichen. Da wir die Aufgaben ein wenig aufgeteilt haben, damit wir alle Videoschnitt und Sounddesign praktizieren durften, unterscheiden sich die einzelnen Szenen qualitativ deutlich. Dies war jedoch genau das Ziel der Gruppenarbeit, indem alle einmal etwas ausprobieren durften, auch ohne vorhandene Skills. 
+
+                </p>
+              </div>
+              <div class="secX sec5">
+                <p class="sec-title">Learnings / Selbstreflektion</p>
+                <p class="sec-text">
+                  Dieses Modul war wahrscheinlich mein absolutes Lieblingsmodul des gesamten Studiums. Das Arbeiten daran hat sehr viel Spass gemacht, mit dem Endergebnis bin ich absolut glücklich und es ist etwas, was ich bisher noch niemals gesehen habe. Interaktive Filme existieren und Real-Life Videospiel-Imitationen existieren ebenfalls. Dank diesem Modul konnten wir eine Weltneuheit erstellen. Ausserdem habe ich meinen narrativen Horizont um einiges erweitern können, wofür ich sehr dankbar bin.
+
+                </p>
+              </div>
+              <div class="gallery">
+                <img src="img/interactive/post.png" alt="Postproduction" />
+                <img
+                  src="img/interactive/tino.png"
+                  alt="Loading Screen"
+                />
+                <img
+                  src="img/interactive/eli.png"
+                  alt="Screenshot Video"
+                />
+                <img
+                  src="img/interactive/beide.png"
+                  alt="Screenshot Video"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PopUp Proj6-->
+
+        <div id="myDIVextra7">
+          <div id="mydiv7" class="desk-window7 tv-effect">
+            <div id="mydiv6header6" class="window-headerX">
+              <p class="header-text">Meri Sweatshirt Mood Communication</p>
+              <div class="header-icons">
+                <button
+                  class="header-close-extra"
+                  onclick="toggleMe('myDIVextra7')"
+                >
+                  <img src="img/x.svg" class="close-icon close-curser" />
+                </button>
+                <!-- <span class="fa-minus"></span> -->
+              </div>
+            </div>
+
+            <div class="window-content-extra">
+              <div class="secX sec1">
+                <div class="sec1left">
+                  <p class="explain">
+                    Ein guter Freund von mir führt die 100% «Made in Switzerland» Kleidermarke „Meri“. Damit will er Erinnerungen schaffen und ein noch nie dagewesenes Gefühl beim Kunden oder Betrachter erwecken. Um dieses Gefühl zu vermitteln, durfte ich ein kleines Video dazu drehen. Wichtig dabei war jedoch, dass das Video nicht kommerziell ausgerichtet ist, um die Pullover zu vermarkten. Es war wichtig, das Meri Gefühl visuell zu kommunizieren.
+Der Launch dieser Marke und der erste Drop fand im August 2021 statt.
+  <br /><br />
+                    <span
+                      ><a
+                        class="sec1-link"
+                        href="meri.html"
+                        target="_blank"
+                        >Hier gehts zum Film</a></span>
+                  </p>
+                  <!-- <div class="text2"></div>
+                  <div class="text3"></div> -->
+                </div>
+                <div class="sec1right">
+                  <video class="sweat-smile-video" autoplay loop muted>
+                    <source src="vid/video6.mp4" type="video/mp4" />
+                    Dein Browser unterstützt das Video-Tag nicht.
+                  </video>
+                </div>
+              </div>
+              <div class="secX sec2">
+                <p class="sec-title">Inspiration</p>
+                <p class="sec-text">
+                  Mit diesem Video hat die Welt das erste Mal erfahren, dass Meri entstanden ist. Deshalb hatte ich keinen Startpunkt, und ich habe ich mich vom Angebot der Kleider inspirieren lassen: Drei unterschiedliche Sweatshirts mit drei unterschiedlichen Farben. Jedes der drei Shirts erzählt eine unterschiedliche Geschichte, was nur im Detail beim Betrachten der Shirts zu sehen ist. Jede einzelne Person im Video hat auch seine eigene Geschichte, trotzdem treffen sich die drei Freunde und geniessen die Zeit miteinander. Genau dieses Gefühl sollte auch visuell übermittelt werden. 
+                </p>
+              </div>
+              <div class="secX sec3">
+                <p class="sec-title">Prozess</p>
+                <p class="sec-text">
+                  Ein Gefühl visuell zu kommunizieren ist eine grosse Herausforderung. 
+                  Dennoch erzählt das Video eine kleine Geschichte: Es spielt an einem sonnigen Sommertag, drei Freunde mit den unterschiedlichen drei Meri Sweatshirts fahren auf dem Fahrrad, haben Spass und geniessen die gute Laune, welche die Sonne bringt. Sie machen sich auf den Weg an einen See, an welchem sie dann auch ankommen, sobald die Golden Hour glitzert und der Tag sich dem Ende zuneigt. Übrigens ist dies ein gewöhnlicher Tag in Murten, wo ich lebe. 
+                </p>
+              </div>
+              <div class="secX sec4">
+                <p class="sec-title">Endergebnis</p>
+                <p class="sec-text">
+                  Auf dieses Video bin ich deshalb besonders stolz, da es einer meiner ersten professionellen Aufträge war. Zu diesem Zeitpunkt hatte ich noch wenig Erfahrung. Dennoch ist es mir gelungen, die Herausforderung zu meistern. Denn das Feedback war sehr positiv, nicht nur von Meri selbst, sondern auch von Umfeld und Kundschaft. Im Hintergrund singt Cinnay, auch im Video zu sehen, einen Song, der extra für dieses Video komponiert worden ist. Somit war auch akustisch dafür gesorgt, dass dieses Gefühl im Video übermittelt wird. 
+                </p>
+              </div>
+              <div class="secX sec5">
+                <p class="sec-title">Learnings / Selbstreflektion</p>
+                <p class="sec-text">
+                  Mit diesem Projekt habe ich auch herausgefunden, welchen Content ich in der Freizeit gerne kreiere. Die visuelle Übermittlung von Gefühlen und Erinnerungen habe ich damals entdeckt. Auch in das Produzieren von urbanem Content habe ich mich damals verliebt. Und für diese Entdeckung und Selbstfindung bin ich heute sehr dankbar.
+                </p>
+              </div>
+              <div class="gallery">
+                <img 
+                  src="img/meri/me in action.jpg" 
+                  alt="Ich am Videodreh" />
+                <img
+                  src="img/meri/alledrei.png"
+                  alt="Screenshots von allen drei Charaktäre"
+                />
+                <img
+                  src="img/meri/outro.png"
+                  alt="Screenshot Video"
+                />
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PopUp Proj7    https://hyperfollow.com/cetaceous    -->
+
+        <div id="myDIVextra8">
+          <div id="mydiv8" class="desk-window8 tv-effect">
+            <div id="mydiv7header7" class="window-headerX">
+              <p class="header-text">Cetaceous Land</p>
+              <div class="header-icons">
+                <button
+                  class="header-close-extra"
+                  onclick="toggleMe('myDIVextra8')"
+                >
+                  <img src="img/x.svg" class="close-icon close-curser" />
+                </button>
+                <!-- <span class="fa-minus"></span> -->
+              </div>
+            </div>
+
+            <div class="window-content-extra">
+              <div class="secX sec1">
+                <div class="sec1left">
+                  <p class="explain">
+                    Mein erstes selbst produziertes Musik Album. Singende und rappende Künstler/Innen haben zusammen mit mir ein Kunstwerk erschaffen. Mit auditiver Kommunikation wird eine Geschichte erzählt. Passende Übergänge zwischen einzelnen Songs, sprechende Charaktere, singende Engel im Gehör und Leidenschaft mit dem Beat. All das bietet dir Cetaceous Land, ein Ort wo du sein kannst wie du willst. 
+  <br /><br />
+                    <span
+                      ><a
+                        class="sec1-link"
+                        href=" https://hyperfollow.com/cetaceous"
+                        target="_blank"
+                        >Hier gehts zum Album</a></span>
+                  </p>
+                  <!-- <div class="text2"></div>
+                  <div class="text3"></div> -->
+                </div>
+                <div class="sec1right">
+                  <video class="sweat-smile-video" autoplay loop muted>
+                    <source src="vid/video7.mp4" type="video/mp4" />
+                    Dein Browser unterstützt das Video-Tag nicht.
+                  </video>
+                </div>
+              </div>
+              <div class="secX sec2">
+                <p class="sec-title">Inspiration</p>
+                <p class="sec-text">
+                  Schon als junger CETACEOUS habe ich die Liebe zur Musik gespürt. Fünf Jahre Gitarren Unterricht haben mich damals inspiriert, Musik zu produzieren. Im Jahr 2016 habe ich die ersten Schritte ins Musikproduzieren gewagt und ich hatte die Idee, ein eigenes Musikalbum zu produzieren. <br />
+                  Cetaceous Land sollte eine Reise durch deine Imagination sein. Ein Ort, den du selbst gestalten kannst und wo du dich nach deinen Wünschen und Vorstellungen verwirklichen kannst.
+                </p>
+              </div>
+              <div class="secX sec3">
+                <p class="sec-title">Prozess</p>
+                <p class="sec-text">
+                  Die beste Experience erlebt man, wenn man das Album vom ersten bis zum letzten Song durchhört. Dies war mein Ziel bei der Gestaltung des Albums. Durch selbst erlerntes Wissen und durch die Praxis aus dem Gitarrenunterricht kam ich immer näher an mein Ziel. Passende Übergänge zwischen einzelnen Songs zu kreieren war etwas, was ich an mehreren Stellen versuchen wollte. Dies erzeugt bei den Zuhörern auch ein Verlangen nach mehr. Ich lasse den Künstlern und Künstlerinnen auch gerne genügend Raum, um selbst mitzubestimmen, wie es klingen sollte. So dauerte es mit einigen Künstlern und Künstlerinnen nur einen einzigen Abend, um alles aufzunehmen, mit  einigen hat es etwas länger gedauert. Da ich selbst noch unerfahren war, war es für mich selbst auch learning by doing. <br />
+                  Ausserdem lasse ich mich sehr gerne breit inspirieren und baue aus bereits Erschaffenem einen neun Klang. Dies erweckt auch Nostalgie oder erschafft einen Wiedererkennungswert. 
+Ob Melodie, Text oder einen bestimmten Drum Rhythmus - ich habe versucht daraus eine gute Harmonie zu erzeugen.
+               </p>
+              </div>
+              <div class="secX sec4">
+                <p class="sec-title">Endergebnis</p>
+                <p class="sec-text">
+                  Auf allen Streaming Plattformen ist nun mein finales Projekt zu hören. Da ich mir eine Deadline von 7 Monaten gesetzt habe, hatte ich nicht für alles genügend Zeit. Jedoch wollte ich es vor dem Sommer veröffentlichen. Das gesamte Album hat 14 Songs, auf einigen Songs sind drei Personen, auf anderen ist es nur ein einzelner Künstler oder eine einzelne Künstlerin, in einigen Songs spricht jemand und ein einzelner Song ist rein instrumental.
+                </p>
+              </div>
+              <div class="secX sec5">
+                <p class="sec-title">Learnings / Selbstreflektion</p>
+                <p class="sec-text">
+                  Das Wichtigste für mich war das Erzeugen der „Breite“. Ich wollte nicht nur mit einem bestimmten Genre kommunizieren. Dies habe auch erzielt. Auch verschiedenste Genres zu verschmelzen hat mir grosse Freude bereitet. Mit den Künstlern und Künstlerlinnen zusammen zu arbeiten war für mich auch einmal etwas Neues. <br />
+                  Leider musste ich nach dem Release auf den Streaming Plattformen feststellen, dass jeder Track viel leiser ist als er sein sollte. Ob es ein Mastering-Fehler war? Ich kann es nicht sagen. Dies ist das Einzige, was ich besser machen würde. Denn sobald jemand auf einen Song von mir stösst, muss er oder sie die Lautstärke erhöhen. Das versuche ich beim nächsten Album auf jeden Fall zu verbessern. 
+                </p>
+              </div>
+              <div class="gallery">
+                <img 
+                  src="img/cetland/cover.jpg" 
+                  alt="Cetaceous Land Cover" />
+                <img
+                  src="img/cetland/tracklist.jpg"
+                  alt="Handskizze von Tracklist"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- RIGHT SIDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+    EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+      <div class="right-content">
+        <div class="desk-icons-right">
+          <button class="desk-start app" onclick="toggleMe('myDIVextra12')">
+            <img
+              src="img/icon/address_book_user.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">About Me</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra13')">
+            <img
+              src="img/icon/world_address_book-0.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Education</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra14')">
+            <img
+              src="img/icon/briefcase-4.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">Experience</p>
+          </button>
+
+          <button class="desk-start app" onclick="toggleMe('myDIVextra15')">
+            <img
+              src="img/icon/user_card_view.png"
+              class="start-icon icon"
+              alt="Project Icon"
+            />
+            <p class="start-text">References</p>
+          </button>
+
+          <!-- PopUp Proj11-->
+          <div id="myDIVextra12">
+            <div id="mydiv12" class="desk-window12 tv-effect">
+              <div id="mydiv4header4" class="window-headerX">
+                <p class="header-text">Elias Baumann</p>
+                <div class="header-icons">
+                  <button
+                    class="header-close-extra"
+                    onclick="toggleMe('myDIVextra12')"
+                  >
+                    <img src="img/x.svg" class="close-icon close-curser" />
+                  </button>
+                  <!-- <span class="fa-minus"></span> -->
+                </div>
+              </div>
+
+              <div class="window-content-extra">
+                <div class="profile-pic">
+                  <img src="img/myFace.gif" class="profile-face" />
+                </div>
+                <p class="sec-text">
+                  <span class="aboutMe-title">Hi, mein Name ist Elias.</span> <br /><br />
+                  Einige nennen mich «Creative Head», so wie ich meine verschiedenen Alltagsprobleme angehe und löse. Ich bin ein visueller Kommunikator, der es liebt, Emotionen auf verschiedenste Arten zu übermitteln. Dazu reize ich gerne meine eigenen kreativen Grenzen aus oder versuche sie zu überschreiten, was oftmals eine grosse Herausforderung ist. Jedoch liebe ich solche Herausforderungen, auch um mich aus der breiten Masse hervorzuheben.
+Das ist auch der Grund, warum du mich in Erinnerung behalten wirst...
+                </p>
+                <div class="aboutMe-sec">
+                  <div class="aboutMe-text"><span class="aboutMe-title">Persönlichkeit</span> <br /><br />
+                    Ich versuche immer alles so offen wie möglich anzugehen. Meinen eigenen Horizont erweitern, kreatives Denken, ein neues Essensgericht oder ein fremdes Land: Ich möchte es erlebt haben. Optimismus ist für mich ein weiterer wichtiger Aspekt. Ich sage mir aber vielleicht etwas zu oft „es wird bestimmt alles gut“. Es braucht jedoch schon sehr viel, um mich vom schimmernden Licht am Ende abzubringen.
+                  </div>
+                </div>
+                <div class="aboutMe-sec">
+                  <div class="aboutMe-text"><span class="aboutMe-title">Was will ich?</span> <br /><br />
+                    Breites Denken ist für mich ein wichtiger Ansatz, um kreative Horizonte zu überschreiten und neue Arten visueller Kommunikation zu erschaffen. Von Videos und Animationen über Datenvisualisierungen bis hin zu Musik habe ich in vielen Bereichen Erfahrungen gesammelt. Nun will ich mein Wissen und Können in einem Master-Studium weiter vertiefen und ich bin überzeugt, dass ein solches Studium meine Fähigkeiten und Kompetenzen im kreativen Bereich erweitern wird. 
+                  </div>
+                </div>
+                <div class="aboutMe-sec">
+                  <div class="aboutMe-text"><span class="aboutMe-title">Skills</span> <br /><br />
+                    Auch wenn ich etwas (noch) nicht kann, versuche ich ins kalte Wasser zu springen, um etwas Neues lernen zu dürfen. Dank meiner Ausbildung als Mediamatiker sowie dem Bachelor in Visueller Kommunikation mit Vertiefung Data Design & Arts habe ich ein breites theoretisches und praktisches Wissen.
+Da ich als Künstler sehr vielseitig arbeite und schon mit vielen Arten visueller Kommunikation experimentiert habe, habe ich auch eine breitgefächerte Praxiserfahrung. <br />
+Eine meiner Soft Skills ist es auch, gute Stimmung zu verbreiten. 
+Folgende Programme verwende ich am liebsten:
+                  </div>
+                </div>
+                <div class="skills-sec">
+                  <div class="skill">
+                    <div class="skill-name">Adobe Illustrator</div>
+                    <div class="full-balken">
+                      <div class="skill-balken-illu"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Adobe Premiere Pro
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-premiere"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Adobe Photoshop
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-psd"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Adobe XD
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-xd"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Adobe InDesign
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-indesign"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Adobe Aftereffects
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-ae"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Logic X Pro
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-logic"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">HTML, Css, Js</div>
+                    <div class="full-balken">
+                      <div class="skill-balken-html"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">p5.js
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-p5"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="skill-name">Excel
+                    </div>
+                    <div class="full-balken">
+                      <div class="skill-balken-excel"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PopUp Proj12-->
+
+          <div id="myDIVextra13">
+            <div id="mydiv13" class="desk-window13 tv-effect">
+              <div id="mydiv4header4" class="window-headerX">
+                <p class="header-text">Education</p>
+                <div class="header-icons">
+                  <button
+                    class="header-close-extra"
+                    onclick="toggleMe('myDIVextra13')"
+                  >
+                    <img src="img/x.svg" class="close-icon close-curser" />
+                  </button>
+                  <!-- <span class="fa-minus"></span> -->
+                </div>
+              </div>
+
+              <div class="window-content-extra">
+                <div class="edu">
+                <p class="sec-text">
+                  <span class="edu-title">Orientierungsschule Murten</span><br />
+                  Sekundarschule 7. - 9. Klasse <br /><br />
+                  Aug 2013 - Jul 2016 
+                </p>
+              </div>
+
+              <div class="edu">
+                <p class="sec-text">
+                  <span class="edu-title">Technische Berufsmaturität</span><br />
+                  Berufsbildungszentrum Biel<br /><br />
+                  Aug 2016 - Jul 2020
+                </p>
+              </div>
+
+              <div class="edu">
+                <p class="sec-text">
+                  <span class="edu-title">Bachelor of Arts</span><br />
+                  Visuelle Kommunikation in Data Design + Art
+                  @ Hochschule Luzern Design & Kunst<br /><br />
+                  Sep 2020 - Jul 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- PopUp Proj13-->
+
+          <div id="myDIVextra14">
+            <div id="mydiv14" class="desk-window14 tv-effect">
+              <div id="mydiv4header4" class="window-headerX">
+                <p class="header-text">Experience</p>
+                <div class="header-icons">
+                  <button
+                    class="header-close-extra"
+                    onclick="toggleMe('myDIVextra14')"
+                  >
+                    <img src="img/x.svg" class="close-icon close-curser" />
+                  </button>
+                  <!-- <span class="fa-minus"></span> -->
+                </div>
+              </div>
+
+              <div class="window-content-extra">
+                <div class="edu">
+                  <p class="sec-text">
+                    <span class="edu-title">Mediamatiker EFZ (Ausbildung)</span><br />
+                    Computerschule Bern AG <br /><br />
+                    Aug 2016 - Jul 2018
+ 
+                  </p>
+                </div>
+  
+                <div class="edu">
+                  <p class="sec-text">
+                    <span class="edu-title">Mediamatiker EFZ (Betrieb)</span><br />
+                    SPOUD AG <br /><br />
+                    Aug 2016 - Jul 2020
+                  </p>
+                </div>
+  
+                <div class="edu">
+                  <p class="sec-text">
+                    <span class="edu-title">Data Design + Art (BA)</span><br />
+                    Hochschule Luzern Design & Kunst<br /><br />
+                    Sep 2020 - Jul 2023
+                  </p>
+                </div>
+
+                <div class="edu">
+                  <p class="sec-text">
+                    <span class="edu-title">Studenten Job + 6 Monate (70%)</span><br />
+                    Migros Detailhandel<br /><br />
+                    Mär 2021 - Jan 2024
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- PopUp Proj14-->
+
+          <div id="myDIVextra15">
+            <div id="mydiv15" class="desk-window15 tv-effect">
+              <div id="mydiv4header4" class="window-headerX">
+                <p class="header-text">References</p>
+                <div class="header-icons">
+                  <button
+                    class="header-close-extra"
+                    onclick="toggleMe('myDIVextra15')"
+                  >
+                    <img src="img/x.svg" class="close-icon close-curser" />
+                  </button>
+                  <!-- <span class="fa-minus"></span> -->
+                </div>
+              </div>
+
+              <div class="window-content-extra">
+                <p class="ref-text">
+                  <span class="ref-title">Christian Schneider</span><br /><br />
+                  Mentor meiner Bachelorarbeit<br />
+                  Tel: +41 78 882 67 08<br />
+                  email: info@chrischne.io<br />
+                  web: www.christianschneider.ch<br />
+                </p>
+
+                <p class="ref-text">
+                  <span class="ref-title">Isabelle Bentz</span><br /><br />
+                  Studienleiterin Design + Art HSLU<br />
+                  Tel: +41 41 248 61 86<br />
+                  email: isabelle.bentz@hslu.ch<br />
+                </p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer tv-effect">
+      <div class="start-button">
+        <a href="index.html" class="footer-start">
+          <img src="img/icon/start-button.png" class="footer-start-icon" />
+        </a>
+      </div>
+      <div class="music-section">
+        <div class="player-controls">
+          <button id="playPauseBtn">Press for Radio</button>
+        </div>
+        <div class="audio-wave">
+          <div id="progress-bar"></div>
+        </div>
+        <audio id="audio" src="audio/Lagoon.m4a"></audio>
+      </div>
+      <div class="footer-time">
+        <p><span class="time" id="clock"></span></p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
