@@ -78,7 +78,7 @@ setInterval(showTime, 1000);
 
 // ____________________________________________
 
-// Window Drag n dop
+// Window Drag n drop
 dragElement(document.getElementById("mydiv"));
 
 // Drag n drop Element 2
@@ -120,11 +120,14 @@ function dragElement(elmnt) {
     pos3 = 0,
     pos4 = 0;
 
-  // Überprüfe, ob das Element ein Header hat, an dem gezogen werden kann
-  if (document.getElementById(elmnt.id + "header")) {
+  // Find the header element inside the provided element
+  var header = elmnt.getElementsByClassName("window-headerX")[0];
+
+  // Check if header exists
+  if (header) {
     // Mausklick- und Touch-Events hinzufügen
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-    document.getElementById(elmnt.id + "header").ontouchstart = dragTouchStart;
+    header.onmousedown = dragMouseDown;
+    header.ontouchstart = dragTouchStart;
   } else {
     elmnt.onmousedown = dragMouseDown;
     elmnt.ontouchstart = dragTouchStart;
